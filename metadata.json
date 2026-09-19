@@ -1,0 +1,6 @@
+{
+  "name": "bp pulse Charging Station - Archway",
+  "description": "Information, 24-hour access details, directions, and support for the bp pulse electric vehicle charging station at Pemberton Gardens, Archway, London N19 5PX.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
