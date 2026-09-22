@@ -122,16 +122,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               <span>{BUSINESS_CONFIG.hours}</span>
             </div>
             <div className="pt-2">
-              <a
-                id="footer-directions-link"
-                href={BUSINESS_CONFIG.googleMapsDirectionsUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 text-xs font-medium text-emerald-400 hover:text-emerald-300 transition-colors"
-              >
-                <span>Open in Google Maps</span>
-                <ArrowUpRight className="w-3.5 h-3.5" />
-              </a>
+        
             </div>
           </div>
 
@@ -157,16 +148,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
 
             <div className="pt-1">
               <p className="text-xs text-slate-400 mb-2">Official bp pulse Network Reference:</p>
-              <a
-                id="footer-official-site-link"
-                href={BUSINESS_CONFIG.officialWebsite}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 text-xs text-slate-300 hover:text-emerald-400 transition-colors underline underline-offset-4"
-              >
-                <span>chargers.bppulse.com</span>
-                <ExternalLink className="w-3 h-3" />
-              </a>
+              
             </div>
           </div>
         </div>

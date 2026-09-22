@@ -119,16 +119,7 @@ export const Header: React.FC<HeaderProps> = ({
             <span>Call Support</span>
           </a>
 
-          <a
-            id="header-directions-btn"
-            href={BUSINESS_CONFIG.googleMapsDirectionsUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg text-sm font-semibold text-slate-950 bg-emerald-400 hover:bg-emerald-300 active:bg-emerald-500 transition-all shadow-md shadow-emerald-950/30"
-          >
-            <Navigation className="w-4 h-4 fill-slate-950" />
-            <span>Get Directions</span>
-          </a>
+          
         </div>
 
         {/* Mobile menu hamburger toggle */}
